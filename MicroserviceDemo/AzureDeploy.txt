@@ -1,0 +1,20 @@
+//AFTER DOCKER IMAGE BUILT PROCEED TO BELOW
+
+az login
+
+az group create --name MicroserviceDemoResources --location eastus
+
+[MAYBE FOR TESTING ]: az acr create --name "MicroserviceDemoAzContReg" -g "MicroserviceDemoResources" --location "eastus" --sku "Basic"
+
+[NOTE Container Registry AT END ]: az aks create --resource-group MicroServiceDemoResources --name MicroServiceDemoCluster --node-count 1 --enable-addons http_application_routing --generate-ssh-keys --attach-acr MicroserviceDemoAzContReg
+
+az aks get-credentials --resource-group MicroserviceDemoResources --name MicroserviceDemoCluster
+
+[ONLY Verifies Nodes ]: kubectl get nodes
+
+
+[REPOSITORY NAME IS DOCKER IMAGE NAME]: docker image push jthompson109/microservicedemo:latest
+
+kubectl apply -f deploy.yaml
+
+[Verify PODS]: kubectl get pods

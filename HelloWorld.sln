@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{C6646825-29D1-4A8C-816C-71B335281E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.UnitTests", "HelloWorld.UnitTests\HelloWorld.UnitTests.csproj", "{1804900D-F69F-4ECA-8FE6-FCC8859B287D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6646825-29D1-4A8C-816C-71B335281E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6646825-29D1-4A8C-816C-71B335281E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6646825-29D1-4A8C-816C-71B335281E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6646825-29D1-4A8C-816C-71B335281E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1804900D-F69F-4ECA-8FE6-FCC8859B287D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1804900D-F69F-4ECA-8FE6-FCC8859B287D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1804900D-F69F-4ECA-8FE6-FCC8859B287D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1804900D-F69F-4ECA-8FE6-FCC8859B287D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87FBC524-E2A3-49B9-8882-5E980953B1E5}
+	EndGlobalSection
+EndGlobal

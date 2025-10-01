@@ -1,0 +1,6 @@
+C:\Users\Joseph\Source\Repos\HelloWorld\5-DataStructAlgoDesign\DataStructAlgDesignPtrn\Chapter02\SingleDimensionalArrays\bin\Debug\SingleDimensionalArrays.exe.config
+C:\Users\Joseph\Source\Repos\HelloWorld\5-DataStructAlgoDesign\DataStructAlgDesignPtrn\Chapter02\SingleDimensionalArrays\bin\Debug\SingleDimensionalArrays.exe
+C:\Users\Joseph\Source\Repos\HelloWorld\5-DataStructAlgoDesign\DataStructAlgDesignPtrn\Chapter02\SingleDimensionalArrays\bin\Debug\SingleDimensionalArrays.pdb
+C:\Users\Joseph\Source\Repos\HelloWorld\5-DataStructAlgoDesign\DataStructAlgDesignPtrn\Chapter02\SingleDimensionalArrays\obj\Debug\SingleDimensionalArrays.csproj.CoreCompileInputs.cache
+C:\Users\Joseph\Source\Repos\HelloWorld\5-DataStructAlgoDesign\DataStructAlgDesignPtrn\Chapter02\SingleDimensionalArrays\obj\Debug\SingleDimensionalArrays.exe
+C:\Users\Joseph\Source\Repos\HelloWorld\5-DataStructAlgoDesign\DataStructAlgDesignPtrn\Chapter02\SingleDimensionalArrays\obj\Debug\SingleDimensionalArrays.pdb

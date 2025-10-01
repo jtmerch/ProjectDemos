@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDataStructAlgorithmApi", "CSharpDataStructAlgorithmApi\CSharpDataStructAlgorithmApi.csproj", "{9EC5B766-872D-47A8-AF49-63986B9E1450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC5B766-872D-47A8-AF49-63986B9E1450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC5B766-872D-47A8-AF49-63986B9E1450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC5B766-872D-47A8-AF49-63986B9E1450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC5B766-872D-47A8-AF49-63986B9E1450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {048C6AFD-D0F4-4E5B-847A-D32072B60FCB}
+	EndGlobalSection
+EndGlobal
