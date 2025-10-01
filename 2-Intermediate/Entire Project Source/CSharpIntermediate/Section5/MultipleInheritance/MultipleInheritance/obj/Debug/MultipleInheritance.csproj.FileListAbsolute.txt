@@ -1,1 +1,0 @@
-C:\Projects\CSharpIntermediate\Section5\MultipleInheritance\MultipleInheritance\bin\Debug\MultipleInheritance.exe.config

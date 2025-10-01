@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\neuag\\Source\\NuveiPayBlazorDemo\\NuveiPayBlazorDemo\\NuveiPayBlazorDemo\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\NuveiPayBlazorDemo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NuveiPayBlazorDemo.unmsu3zqby.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\neuag\\Source\\NuveiPayBlazorDemo\\NuveiPayBlazorDemo\\NuveiPayBlazorDemo\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.NuveiPayBlazorDemo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.NuveiPayBlazorDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.NuveiPayBlazorDemo.props",
+      "PackagePath": "build\\NuveiPayBlazorDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.NuveiPayBlazorDemo.props",
+      "PackagePath": "buildMultiTargeting\\NuveiPayBlazorDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.NuveiPayBlazorDemo.props",
+      "PackagePath": "buildTransitive\\NuveiPayBlazorDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

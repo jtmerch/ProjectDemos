@@ -1,0 +1,33 @@
+﻿@page "/cardsale"
+@using NuveiPayBlazorDemo.Shared
+@inject HttpClient Http
+
+<h3>Card Sale</h3>
+
+<EditForm Model="@Request" OnValidSubmit="HandleSubmit">
+   
+    MerchantID: <InputText @bind-Value="Request.MerchantID" /><br />
+    CardNumber: <InputText @bind-Value="Request.CardNumber" /><br />
+    ExpirationMonth: <InputText @bind-Value="Request.ExpirationMonth" /><br />
+    ExpirationYear: <InputText @bind-Value="Request.ExpirationYear" /><br />
+    CVV: <InputText @bind-Value="Request.CVV" /><br />
+    TransactionAmount: <InputText @bind-Value="Request.TransactionAmount" /><br />
+    <button type="submit">Submit</button>
+</EditForm>
+
+@if (Response != null)
+{
+    <p>Success: @Response.IsSuccess</p>
+    <p>@Response.Message</p>
+}
+
+@code {
+    private NuveiTransCCRequestDto Request = new();
+    private ResponseDto? Response;
+
+    private async Task HandleSubmit()
+    {
+        var res = await Http.PostAsJsonAsync("api/NuveiTransaction/CardSale", Request);
+        Response = await res.Content.ReadFromJsonAsync<ResponseDto>();
+    }
+}

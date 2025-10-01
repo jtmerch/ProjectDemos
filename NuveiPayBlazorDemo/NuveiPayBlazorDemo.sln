@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuveiPayBlazorDemo", "NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.csproj", "{5FE32ABF-D4D2-408F-99AD-0CE9EB7F718B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuveiPayBlazorDemo.Client", "NuveiPayBlazorDemo\NuveiPayBlazorDemo.Client\NuveiPayBlazorDemo.Client.csproj", "{112EFD5C-2037-4A80-A4EC-B717940F3D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuveiPayBlazorDemo.Shared", "NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\NuveiPayBlazorDemo.Shared.csproj", "{D119079A-E3CC-44C4-B874-AA0B729BF68B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FE32ABF-D4D2-408F-99AD-0CE9EB7F718B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE32ABF-D4D2-408F-99AD-0CE9EB7F718B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE32ABF-D4D2-408F-99AD-0CE9EB7F718B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE32ABF-D4D2-408F-99AD-0CE9EB7F718B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112EFD5C-2037-4A80-A4EC-B717940F3D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112EFD5C-2037-4A80-A4EC-B717940F3D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112EFD5C-2037-4A80-A4EC-B717940F3D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112EFD5C-2037-4A80-A4EC-B717940F3D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D119079A-E3CC-44C4-B874-AA0B729BF68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D119079A-E3CC-44C4-B874-AA0B729BF68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D119079A-E3CC-44C4-B874-AA0B729BF68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D119079A-E3CC-44C4-B874-AA0B729BF68B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

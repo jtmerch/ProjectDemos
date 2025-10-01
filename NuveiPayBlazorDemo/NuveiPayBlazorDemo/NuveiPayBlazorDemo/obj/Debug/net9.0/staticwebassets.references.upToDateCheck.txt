@@ -1,0 +1,2 @@
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Client\obj\Debug\net9.0\staticwebassets.build.json

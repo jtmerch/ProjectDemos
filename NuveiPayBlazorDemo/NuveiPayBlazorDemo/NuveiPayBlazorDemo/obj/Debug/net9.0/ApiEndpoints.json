@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "NuveiPayBlazorDemo.Controllers.NuveiTransactionController",
+    "Method": "CardSale",
+    "RelativePath": "api/NuveiTransaction/CardSale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "NuveiPayBlazorDemo.Shared.NuvCCSaleCardReqDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

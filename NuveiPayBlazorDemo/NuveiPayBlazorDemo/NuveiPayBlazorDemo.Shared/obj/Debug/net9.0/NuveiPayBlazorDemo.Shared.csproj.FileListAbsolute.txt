@@ -1,0 +1,15 @@
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.AssemblyInfoInputs.cache
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.AssemblyInfo.cs
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.AssemblyInfoInputs.cache
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.AssemblyInfo.cs
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\bin\Debug\net9.0\NuveiPayBlazorDemo.Shared.deps.json
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\bin\Debug\net9.0\NuveiPayBlazorDemo.Shared.dll
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\bin\Debug\net9.0\NuveiPayBlazorDemo.Shared.pdb
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.dll
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\refint\NuveiPayBlazorDemo.Shared.dll
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\NuveiPayBlazorDemo.Shared.pdb
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo.Shared\obj\Debug\net9.0\ref\NuveiPayBlazorDemo.Shared.dll

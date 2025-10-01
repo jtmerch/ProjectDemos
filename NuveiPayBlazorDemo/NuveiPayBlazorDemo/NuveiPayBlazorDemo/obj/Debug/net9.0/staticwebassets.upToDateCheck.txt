@@ -1,0 +1,2 @@
+C:\Users\neuag\Source\NuveiPayBlazorDemo\NuveiPayBlazorDemo\NuveiPayBlazorDemo\wwwroot\app.css
+wwwroot\app.css

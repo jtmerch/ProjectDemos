@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "NuveiPayBlazorDemo\\NuveiPayBlazorDemo\\NuveiPayBlazorDemo.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "NuveiPayBlazorDemo\\NuveiPayBlazorDemo.Client\\NuveiPayBlazorDemo.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

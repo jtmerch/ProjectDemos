@@ -1,1 +1,0 @@
-C:\Projects\CSharpIntermediate\Section3\AccessModifiers\AccessModifiers\bin\Debug\AccessModifiers.exe.config

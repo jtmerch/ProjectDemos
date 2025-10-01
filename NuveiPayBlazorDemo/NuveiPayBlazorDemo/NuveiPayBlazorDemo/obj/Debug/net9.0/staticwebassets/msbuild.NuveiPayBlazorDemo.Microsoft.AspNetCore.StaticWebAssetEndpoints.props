@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/NuveiPayBlazorDemo/app.4kywy7iv6g.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4kywy7iv6g"},{"Name":"integrity","Value":"sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="},{"Name":"label","Value":"_content/NuveiPayBlazorDemo/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2463"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 19:49:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NuveiPayBlazorDemo/app.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2463"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 19:49:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NuveiPayBlazorDemo/NuveiPayBlazorDemo.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NuveiPayBlazorDemo.unmsu3zqby.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-utvpl7U8NRo3o/aD7UGXh2XszBrjn6/Mcs5qjU82r9k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"569"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022utvpl7U8NRo3o/aD7UGXh2XszBrjn6/Mcs5qjU82r9k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 17:39:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NuveiPayBlazorDemo/NuveiPayBlazorDemo.unmsu3zqby.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NuveiPayBlazorDemo.unmsu3zqby.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"unmsu3zqby"},{"Name":"integrity","Value":"sha256-utvpl7U8NRo3o/aD7UGXh2XszBrjn6/Mcs5qjU82r9k="},{"Name":"label","Value":"_content/NuveiPayBlazorDemo/NuveiPayBlazorDemo.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"569"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022utvpl7U8NRo3o/aD7UGXh2XszBrjn6/Mcs5qjU82r9k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 17:39:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
