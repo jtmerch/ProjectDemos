@@ -73,7 +73,7 @@ namespace NuveiPayBlazorDemo.Services
             merchantModel.MerchantName = "Test Blazor Merchant";
             merchantModel.merchantID = "3316684520456076214";
             merchantModel.merchantSiteID = "257108";
-            merchantModel.merchantSecretKey = "uBJ8PdBkKMl0pfuh2OfuY1j5mdWVqkFH9dIOiCnL2lSF9n7I85PFmmLo8CwR0WKQ";
+            merchantModel.merchantSecretKey = "key here";
             merchantModel.ProcessorType = "CC";
             merchantModel.UserIdentifier = Guid.NewGuid().ToString();
             merchantModel.MerchantReturnURL = "http://www.thompsonermchant.com/testreturn";
