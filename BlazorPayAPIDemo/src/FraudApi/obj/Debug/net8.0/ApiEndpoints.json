@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "FraudApi.Controllers.FraudController",
+    "Method": "Check",
+    "RelativePath": "api/Fraud/check",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FraudApi.DTOs.FraudCheckRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FraudApi.DTOs.FraudResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+Open the folder in Visual Studio, or create a new blank solution named PaymentGatewayDemo and add these projects:
+- src/PaymentGatewayApi/PaymentGatewayApi.csproj
+- src/FraudApi/FraudApi.csproj
+- src/ProcessorApi/ProcessorApi.csproj
+- src/PaymentBlazorClient/PaymentBlazorClient.csproj
+- tests/PaymentGatewayApi.Tests/PaymentGatewayApi.Tests.csproj

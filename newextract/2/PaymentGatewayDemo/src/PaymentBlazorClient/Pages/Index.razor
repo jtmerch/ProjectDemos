@@ -1,0 +1,36 @@
+@page "/"
+@using PaymentBlazorClient.DTOs
+@inject PaymentBlazorClient.Services.PaymentGatewayClient GatewayClient
+
+<h2>Authorize Payment</h2>
+
+<div style="display:grid; gap:10px; max-width:500px;">
+    <label>Merchant ID <input @bind="request.MerchantId" /></label>
+    <label>Amount <input type="number" step="0.01" @bind="request.Amount" /></label>
+    <label>Currency <input @bind="request.Currency" /></label>
+    <label>Card Number <input @bind="request.CardNumber" /></label>
+    <label>Expiration Month <input type="number" @bind="request.ExpirationMonth" /></label>
+    <label>Expiration Year <input type="number" @bind="request.ExpirationYear" /></label>
+    <label>CVV <input @bind="request.CVV" /></label>
+    <label>Customer Name <input @bind="request.CustomerName" /></label>
+    <button @onclick="Authorize" disabled="@isLoading">@(isLoading ? "Processing..." : "Authorize")</button>
+</div>
+
+@if (response is not null)
+{
+    <h3>Response</h3>
+    <pre>@System.Text.Json.JsonSerializer.Serialize(response, new System.Text.Json.JsonSerializerOptions { WriteIndented = true })</pre>
+}
+
+@code {
+    private CardPaymentRequest request = new();
+    private PaymentAuthorizationResponse? response;
+    private bool isLoading;
+
+    private async Task Authorize()
+    {
+        isLoading = true;
+        response = await GatewayClient.AuthorizeAsync(request);
+        isLoading = false;
+    }
+}

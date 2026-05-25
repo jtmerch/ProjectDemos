@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TSYSCertApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+308c47ce002ab4dc1aad57749fd109e1e78bdbfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TSYSCertApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TSYSCertApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
