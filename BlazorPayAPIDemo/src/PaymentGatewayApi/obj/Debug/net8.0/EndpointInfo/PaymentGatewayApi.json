@@ -119,6 +119,10 @@
             "minLength": 1,
             "type": "string"
           },
+          "idempotencyKey": {
+            "type": "string",
+            "nullable": true
+          },
           "cardNumber": {
             "minLength": 1,
             "type": "string"

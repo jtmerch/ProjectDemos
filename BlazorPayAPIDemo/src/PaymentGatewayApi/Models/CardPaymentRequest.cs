@@ -4,6 +4,7 @@ namespace PaymentGatewayApi.Models;
 
 public class CardPaymentRequest : PaymentRequestBase
 {
+    [Required]
     public string IdempotencyKey { get; set; } = string.Empty;
 
     [Required]

@@ -28,3 +28,4 @@ C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentBlazorClient\obj\
 C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentBlazorClient\obj\Debug\net8.0\PaymentBlazorClient.pdb
 C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentBlazorClient\obj\Debug\net8.0\PaymentBlazorClient.genruntimeconfig.cache
 C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentBlazorClient\obj\Debug\net8.0\ref\PaymentBlazorClient.dll
+C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentBlazorClient\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

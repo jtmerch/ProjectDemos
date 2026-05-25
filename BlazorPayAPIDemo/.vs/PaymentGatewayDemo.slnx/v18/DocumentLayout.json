@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C928F6E0-6A83-1CE0-5B07-1168DE850674}|src\\PaymentBlazorClient\\PaymentBlazorClient.csproj|c:\\users\\neuag\\source\\projectdemos\\blazorpayapidemo\\src\\paymentblazorclient\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C928F6E0-6A83-1CE0-5B07-1168DE850674}|src\\PaymentBlazorClient\\PaymentBlazorClient.csproj|solutionrelative:src\\paymentblazorclient\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C928F6E0-6A83-1CE0-5B07-1168DE850674}|src\\PaymentBlazorClient\\PaymentBlazorClient.csproj|c:\\users\\neuag\\source\\projectdemos\\blazorpayapidemo\\src\\paymentblazorclient\\services\\paymentgatewayclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C928F6E0-6A83-1CE0-5B07-1168DE850674}|src\\PaymentBlazorClient\\PaymentBlazorClient.csproj|solutionrelative:src\\paymentblazorclient\\services\\paymentgatewayclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F03DFC10-BD1B-B0E8-3B2D-71057E13CA34}|src\\PaymentGatewayApi\\PaymentGatewayApi.csproj|c:\\users\\neuag\\source\\projectdemos\\blazorpayapidemo\\src\\paymentgatewayapi\\services\\paymentorchestrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F03DFC10-BD1B-B0E8-3B2D-71057E13CA34}|src\\PaymentGatewayApi\\PaymentGatewayApi.csproj|solutionrelative:src\\paymentgatewayapi\\services\\paymentorchestrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +82,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentBlazorClient\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "src\\PaymentBlazorClient\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentBlazorClient\\Pages\\Index.razor",
+              "RelativeToolTip": "src\\PaymentBlazorClient\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T20:02:50.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentGatewayClient.cs",
+              "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentBlazorClient\\Services\\PaymentGatewayClient.cs",
+              "RelativeDocumentMoniker": "src\\PaymentBlazorClient\\Services\\PaymentGatewayClient.cs",
+              "ToolTip": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentBlazorClient\\Services\\PaymentGatewayClient.cs",
+              "RelativeToolTip": "src\\PaymentBlazorClient\\Services\\PaymentGatewayClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T20:02:42.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "InMemoryMerchantRepository.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentGatewayApi\\Repositories\\InMemoryMerchantRepository.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Repositories\\InMemoryMerchantRepository.cs",
@@ -86,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PaymentOrchestrationServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\tests\\PaymentGatewayApi.Tests\\PaymentOrchestrationServiceTests.cs",
               "RelativeDocumentMoniker": "tests\\PaymentGatewayApi.Tests\\PaymentOrchestrationServiceTests.cs",
@@ -98,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MerchantServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\tests\\PaymentGatewayApi.Tests\\MerchantServiceTests.cs",
               "RelativeDocumentMoniker": "tests\\PaymentGatewayApi.Tests\\MerchantServiceTests.cs",
@@ -110,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PaymentGatewayApi.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\tests\\PaymentGatewayApi.Tests\\PaymentGatewayApi.Tests.csproj",
               "RelativeDocumentMoniker": "tests\\PaymentGatewayApi.Tests\\PaymentGatewayApi.Tests.csproj",
@@ -122,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PaymentOrchestrationService.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentGatewayApi\\Services\\PaymentOrchestrationService.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Services\\PaymentOrchestrationService.cs",
@@ -135,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PaymentProcessorBase.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentGatewayApi\\Services\\PaymentProcessorBase.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Services\\PaymentProcessorBase.cs",
@@ -147,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "IMerchantRepository.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentGatewayApi\\Repositories\\IService\\IMerchantRepository.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Repositories\\IService\\IMerchantRepository.cs",
@@ -159,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MerchantService.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentGatewayApi\\Services\\MerchantService.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Services\\MerchantService.cs",
@@ -171,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "FraudService.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\FraudApi\\Services\\FraudService.cs",
               "RelativeDocumentMoniker": "src\\FraudApi\\Services\\FraudService.cs",
@@ -183,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PaymentsController.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentGatewayApi\\Controllers\\PaymentsController.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Controllers\\PaymentsController.cs",

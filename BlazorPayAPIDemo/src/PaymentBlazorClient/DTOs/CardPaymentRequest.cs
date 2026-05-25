@@ -1,7 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace PaymentBlazorClient.DTOs;
 
 public class CardPaymentRequest
 {
+    [Required]
     public string IdempotencyKey { get; set; } = string.Empty;
     public string MerchantId { get; set; } = "M1001";
     public decimal Amount { get; set; } = 125.50m;

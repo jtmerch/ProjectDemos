@@ -34,3 +34,4 @@ C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentGatewayApi\obj\De
 C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentGatewayApi\obj\Debug\net8.0\PaymentGatewayApi.pdb
 C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentGatewayApi\obj\Debug\net8.0\PaymentGatewayApi.genruntimeconfig.cache
 C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentGatewayApi\obj\Debug\net8.0\ref\PaymentGatewayApi.dll
+C:\Users\neuag\Source\ProjectDemos\BlazorPayAPIDemo\src\PaymentGatewayApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -32,8 +32,7 @@ public class PaymentsController : ControllerBase
         _logger.LogInformation("[{CorrelationId}] Request received merchant={MerchantId} amount={Amount} {Currency} idempotencyKey={IdempotencyKey}",
             correlationId, request.MerchantId, request.Amount, request.Currency, request.IdempotencyKey);
 
-        if (!string.IsNullOrEmpty(request.IdempotencyKey) &&
-            _cache.TryGetValue(request.IdempotencyKey, out PaymentAuthorizationResponse? cached))
+        if (_cache.TryGetValue(request.IdempotencyKey, out PaymentAuthorizationResponse? cached))
         {
             _logger.LogInformation("[{CorrelationId}] Duplicate request — returning cached response for idempotencyKey={IdempotencyKey}",
                 correlationId, request.IdempotencyKey);
@@ -42,8 +41,7 @@ public class PaymentsController : ControllerBase
 
         var response = await _paymentService.AuthorizeAsync(request, correlationId, cancellationToken);
 
-        if (!string.IsNullOrEmpty(request.IdempotencyKey))
-            _cache.Set(request.IdempotencyKey, response, TimeSpan.FromHours(24));
+        _cache.Set(request.IdempotencyKey, response, TimeSpan.FromHours(24));
 
         if (response.ProcessorResponseCode == "MERCHANT_NOT_FOUND")
             return NotFound(response);
