@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51ACB867-85FF-A3B1-FD13-60605FFAB440}|src\\FraudApi\\FraudApi.csproj|c:\\users\\neuag\\source\\projectdemos\\blazorpaymultiapidemo\\src\\fraudapi\\fraudapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{51ACB867-85FF-A3B1-FD13-60605FFAB440}|src\\FraudApi\\FraudApi.csproj|solutionrelative:src\\fraudapi\\fraudapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F03DFC10-BD1B-B0E8-3B2D-71057E13CA34}|src\\PaymentGatewayApi\\PaymentGatewayApi.csproj|c:\\users\\neuag\\source\\projectdemos\\blazorpaymultiapidemo\\src\\paymentgatewayapi\\models\\merchant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F03DFC10-BD1B-B0E8-3B2D-71057E13CA34}|src\\PaymentGatewayApi\\PaymentGatewayApi.csproj|solutionrelative:src\\paymentgatewayapi\\models\\merchant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,19 +95,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FraudApi",
+              "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\FraudApi\\FraudApi.csproj",
+              "RelativeDocumentMoniker": "src\\FraudApi\\FraudApi.csproj",
+              "ToolTip": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\FraudApi\\FraudApi.csproj",
+              "RelativeToolTip": "src\\FraudApi\\FraudApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-25T21:11:23.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Merchant.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\Models\\Merchant.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Models\\Merchant.cs",
               "ToolTip": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\Models\\Merchant.cs",
               "RelativeToolTip": "src\\PaymentGatewayApi\\Models\\Merchant.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA1wAkAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T20:59:35.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FraudCheckRequest.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\DTOs\\FraudCheckRequest.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\DTOs\\FraudCheckRequest.cs",
@@ -111,12 +127,11 @@
               "RelativeToolTip": "src\\PaymentGatewayApi\\DTOs\\FraudCheckRequest.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T20:56:13.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T20:56:13.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentBlazorClient\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "src\\PaymentBlazorClient\\Pages\\Index.razor",
@@ -124,12 +139,11 @@
               "RelativeToolTip": "src\\PaymentBlazorClient\\Pages\\Index.razor",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-25T20:02:50.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T20:02:50.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PaymentGatewayClient.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentBlazorClient\\Services\\PaymentGatewayClient.cs",
               "RelativeDocumentMoniker": "src\\PaymentBlazorClient\\Services\\PaymentGatewayClient.cs",
@@ -137,12 +151,11 @@
               "RelativeToolTip": "src\\PaymentBlazorClient\\Services\\PaymentGatewayClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T20:02:42.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T20:02:42.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "InMemoryMerchantRepository.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\Repositories\\InMemoryMerchantRepository.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Repositories\\InMemoryMerchantRepository.cs",
@@ -150,12 +163,11 @@
               "RelativeToolTip": "src\\PaymentGatewayApi\\Repositories\\InMemoryMerchantRepository.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T19:30:18.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T19:30:18.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PaymentOrchestrationServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\tests\\PaymentGatewayApi.Tests\\PaymentOrchestrationServiceTests.cs",
               "RelativeDocumentMoniker": "tests\\PaymentGatewayApi.Tests\\PaymentOrchestrationServiceTests.cs",
@@ -167,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MerchantServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\tests\\PaymentGatewayApi.Tests\\MerchantServiceTests.cs",
               "RelativeDocumentMoniker": "tests\\PaymentGatewayApi.Tests\\MerchantServiceTests.cs",
@@ -175,12 +187,11 @@
               "RelativeToolTip": "tests\\PaymentGatewayApi.Tests\\MerchantServiceTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T18:31:46.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T18:31:46.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PaymentGatewayApi.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\tests\\PaymentGatewayApi.Tests\\PaymentGatewayApi.Tests.csproj",
               "RelativeDocumentMoniker": "tests\\PaymentGatewayApi.Tests\\PaymentGatewayApi.Tests.csproj",
@@ -192,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PaymentOrchestrationService.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\Services\\PaymentOrchestrationService.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Services\\PaymentOrchestrationService.cs",
@@ -204,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PaymentProcessorBase.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\Services\\PaymentProcessorBase.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Services\\PaymentProcessorBase.cs",
@@ -216,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IMerchantRepository.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\Repositories\\IService\\IMerchantRepository.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Repositories\\IService\\IMerchantRepository.cs",
@@ -228,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MerchantService.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\Services\\MerchantService.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Services\\MerchantService.cs",
@@ -240,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FraudService.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\FraudApi\\Services\\FraudService.cs",
               "RelativeDocumentMoniker": "src\\FraudApi\\Services\\FraudService.cs",
@@ -248,12 +259,11 @@
               "RelativeToolTip": "src\\FraudApi\\Services\\FraudService.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAQwIUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T22:07:25.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T22:07:25.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PaymentsController.cs",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\Controllers\\PaymentsController.cs",
               "RelativeDocumentMoniker": "src\\PaymentGatewayApi\\Controllers\\PaymentsController.cs",
@@ -261,8 +271,7 @@
               "RelativeToolTip": "src\\PaymentGatewayApi\\Controllers\\PaymentsController.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T21:54:26.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T21:54:26.699Z"
             }
           ]
         }
