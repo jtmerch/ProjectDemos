@@ -488,11 +488,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\FraudApi\\FraudApi.csproj",
+      "projectUniqueName": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\FraudApi\\FraudApi.csproj",
       "projectName": "FraudApi",
-      "projectPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\FraudApi\\FraudApi.csproj",
+      "projectPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\FraudApi\\FraudApi.csproj",
       "packagesPath": "C:\\Users\\neuag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\FraudApi\\obj\\",
+      "outputPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\FraudApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

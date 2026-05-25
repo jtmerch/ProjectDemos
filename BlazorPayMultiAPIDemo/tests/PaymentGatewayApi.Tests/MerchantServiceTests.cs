@@ -4,8 +4,10 @@ using Xunit;
 
 namespace PaymentGatewayApi.Tests;
 
+// Tests for MerchantService — verifies that merchant lookups work correctly
 public class MerchantServiceTests
 {
+    // Should return the merchant when a valid ID is passed in
     [Fact]
     public async Task GetMerchantAsync_ReturnsMerchant_WhenMerchantExists()
     {
@@ -17,6 +19,7 @@ public class MerchantServiceTests
         Assert.Equal("Savannah Urgent Care", merchant!.MerchantName);
     }
 
+    // Should return null instead of throwing when the merchant ID doesn't exist
     [Fact]
     public async Task GetMerchantAsync_ReturnsNull_WhenMerchantDoesNotExist()
     {

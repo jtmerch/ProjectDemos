@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FraudApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+308c47ce002ab4dc1aad57749fd109e1e78bdbfd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f59f4ff2dbaf8f3caeb4174cf3aea3e048feb069")]
 [assembly: System.Reflection.AssemblyProductAttribute("FraudApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FraudApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

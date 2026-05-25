@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentBlazorClient\\PaymentBlazorClient.csproj",
+      "projectUniqueName": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentBlazorClient\\PaymentBlazorClient.csproj",
       "projectName": "PaymentBlazorClient",
-      "projectPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentBlazorClient\\PaymentBlazorClient.csproj",
+      "projectPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentBlazorClient\\PaymentBlazorClient.csproj",
       "packagesPath": "C:\\Users\\neuag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentBlazorClient\\obj\\",
+      "outputPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentBlazorClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

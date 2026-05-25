@@ -488,11 +488,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\ProcessorApi\\ProcessorApi.csproj",
+      "projectUniqueName": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\ProcessorApi\\ProcessorApi.csproj",
       "projectName": "ProcessorApi",
-      "projectPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\ProcessorApi\\ProcessorApi.csproj",
+      "projectPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\ProcessorApi\\ProcessorApi.csproj",
       "packagesPath": "C:\\Users\\neuag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\ProcessorApi\\obj\\",
+      "outputPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\ProcessorApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

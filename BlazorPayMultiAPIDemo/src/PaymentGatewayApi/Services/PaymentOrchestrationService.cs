@@ -6,6 +6,7 @@ using PaymentGatewayApi.Services.IService;
 
 namespace PaymentGatewayApi.Services;
 
+// This service coordinates the entire payment flow — merchant lookup, fraud check, and processor authorization
 public class PaymentOrchestrationService : IPaymentOrchestrationService
 {
     private readonly IMerchantService _merchantService;
@@ -13,6 +14,7 @@ public class PaymentOrchestrationService : IPaymentOrchestrationService
     private readonly PaymentProcessorBase _paymentProcessor;
     private readonly ILogger<PaymentOrchestrationService> _logger;
 
+    // All dependencies come in through the constructor via dependency injection
     public PaymentOrchestrationService(
         IMerchantService merchantService,
         IFraudClient fraudClient,
@@ -27,10 +29,11 @@ public class PaymentOrchestrationService : IPaymentOrchestrationService
 
     public async Task<PaymentAuthorizationResponse> AuthorizeAsync(CardPaymentRequest request, string correlationId, CancellationToken cancellationToken = default)
     {
-        // Merchant lookup
+        // Step 1 — look up the merchant to make sure they exist and are active
         _logger.LogInformation("[{CorrelationId}] Merchant lookup started merchantId={MerchantId}", correlationId, request.MerchantId);
         var merchant = await _merchantService.GetMerchantAsync(request.MerchantId, cancellationToken);
 
+        // If we can't find the merchant, stop here and return an error
         if (merchant == null)
         {
             _logger.LogWarning("[{CorrelationId}] Merchant not found merchantId={MerchantId}", correlationId, request.MerchantId);
@@ -45,6 +48,7 @@ public class PaymentOrchestrationService : IPaymentOrchestrationService
         _logger.LogInformation("[{CorrelationId}] Merchant resolved name={MerchantName} active={IsActive} processor={ProcessorName} risk={RiskLevel}",
             correlationId, merchant.MerchantName, merchant.IsActive, merchant.ProcessorName, merchant.RiskLevel);
 
+        // If the merchant account is disabled, we can't process the payment
         if (!merchant.IsActive)
         {
             _logger.LogWarning("[{CorrelationId}] Merchant inactive merchantId={MerchantId}", correlationId, merchant.MerchantId);
@@ -58,15 +62,17 @@ public class PaymentOrchestrationService : IPaymentOrchestrationService
             };
         }
 
-        // Parallel fraud + processor calls
+        // Step 2 — fire off fraud check and processor authorization at the same time to save time
         _logger.LogInformation("[{CorrelationId}] Fraud check and processor submission started in parallel", correlationId);
 
         var fraudSw = Stopwatch.StartNew();
         var processorSw = Stopwatch.StartNew();
 
+        // Both calls run in parallel — we don't wait for one to finish before starting the other
         var fraudTask = _fraudClient.CheckFraudAsync(request, merchant, cancellationToken);
         var processorTask = _paymentProcessor.AuthorizeAsync(request, merchant, cancellationToken);
 
+        // Wait for both to finish before we move on
         await Task.WhenAll(fraudTask, processorTask);
 
         var fraudResult = await fraudTask;
@@ -81,7 +87,7 @@ public class PaymentOrchestrationService : IPaymentOrchestrationService
         _logger.LogInformation("[{CorrelationId}] Processor response received code={ProcessorResponseCode} approved={Approved} transactionId={TransactionId} elapsed={ElapsedMs}ms",
             correlationId, processorResult.ProcessorResponseCode, processorResult.Approved, processorResult.TransactionId, processorSw.ElapsedMilliseconds);
 
-        // Fraud gate
+        // Step 3 — if fraud says decline or the score is too high, we block the payment
         if (fraudResult.Recommendation.Equals("Declined", StringComparison.OrdinalIgnoreCase) || fraudResult.FraudScore >= 80)
         {
             _logger.LogWarning("[{CorrelationId}] Authorization declined by fraud rules score={FraudScore} recommendation={Recommendation} transactionId={TransactionId}",
@@ -103,6 +109,7 @@ public class PaymentOrchestrationService : IPaymentOrchestrationService
             };
         }
 
+        // Step 4 — fraud passed, so return whatever the processor decided
         var outcome = processorResult.Approved ? "Approved" : "Declined";
         _logger.LogInformation("[{CorrelationId}] Authorization complete outcome={Outcome} authCode={AuthCode} transactionId={TransactionId}",
             correlationId, outcome, processorResult.AuthCode, processorResult.TransactionId);

@@ -488,11 +488,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentGatewayApi\\PaymentGatewayApi.csproj",
+      "projectUniqueName": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\PaymentGatewayApi.csproj",
       "projectName": "PaymentGatewayApi",
-      "projectPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentGatewayApi\\PaymentGatewayApi.csproj",
+      "projectPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\PaymentGatewayApi.csproj",
       "packagesPath": "C:\\Users\\neuag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\src\\PaymentGatewayApi\\obj\\",
+      "outputPath": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayMultiAPIDemo\\src\\PaymentGatewayApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

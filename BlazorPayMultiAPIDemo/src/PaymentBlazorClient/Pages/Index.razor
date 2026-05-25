@@ -2,6 +2,7 @@
 @using PaymentBlazorClient.DTOs
 @inject PaymentBlazorClient.Services.PaymentGatewayClient GatewayClient
 
+<!-- Payment form card -->
 <div class="card shadow-sm mb-4">
     <div class="card-header">
         <h5 class="mb-0">Authorize Payment</h5>
@@ -41,6 +42,8 @@
                 <input class="form-control" @bind="request.CustomerName" />
             </div>
         </div>
+
+        <!-- Button shows a spinner while the request is in flight -->
         <button class="btn btn-primary mt-4 w-100" @onclick="Authorize" disabled="@isLoading">
             @if (isLoading)
             {
@@ -55,13 +58,16 @@
     </div>
 </div>
 
+<!-- Only show the result section after we get a response back -->
 @if (response != null)
 {
+    <!-- Green banner for approved, red for declined -->
     <div class="alert @(response.Approved ? "alert-success" : "alert-danger") d-flex align-items-center" role="alert">
         <strong class="me-2">@(response.Approved ? "Approved" : "Declined")</strong>
         @response.ResponseMessage
     </div>
 
+    <!-- Detail card showing everything we got back from the gateway -->
     <div class="card shadow-sm">
         <div class="card-header">Authorization Details</div>
         <ul class="list-group list-group-flush">
@@ -87,6 +93,7 @@
             </li>
             <li class="list-group-item d-flex justify-content-between">
                 <span class="text-muted">Fraud Score</span>
+                <!-- Color-coded badge: green under 50, yellow 50–79, red 80+ -->
                 <span class="badge @(response.FraudScore >= 80 ? "bg-danger" : response.FraudScore >= 50 ? "bg-warning text-dark" : "bg-success")">
                     @response.FraudScore
                 </span>
@@ -96,15 +103,25 @@
 }
 
 @code {
+    // Holds the current values from the form
     private CardPaymentRequest request = new CardPaymentRequest();
+
+    // Holds the response once we get one back — null until the first submission
     private PaymentAuthorizationResponse? response;
+
+    // Controls whether the button is disabled and the spinner is showing
     private bool isLoading;
 
     private async Task Authorize()
     {
         isLoading = true;
+
+        // Generate a new idempotency key each time the button is clicked so duplicate submissions are safe
         request.IdempotencyKey = Guid.NewGuid().ToString();
+
+        // Call the gateway and wait for the result
         response = await GatewayClient.AuthorizeAsync(request);
+
         isLoading = false;
     }
 }
