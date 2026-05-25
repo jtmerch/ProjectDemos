@@ -61,7 +61,7 @@ Body:
 }
 ```
 
-> **idempotencyKey** (optional): A unique string you choose for each payment attempt. If you send the same request twice with the same key (for example, because of a network retry), the gateway returns the original response instead of charging the customer again. The cached result expires after 24 hours.
+> **idempotencyKey** (required): A unique string you choose for each payment attempt. If you send the same request twice with the same key (for example, because of a network retry), the gateway returns the original response instead of charging the customer again. The cached result expires after 24 hours.
 
 Expected approved response:
 
@@ -98,7 +98,8 @@ Expected approved response:
   "expirationMonth": 12,
   "expirationYear": 2030,
   "cvv": "123",
-  "customerName": "Test Customer"
+  "customerName": "Test Customer",
+  "idempotencyKey": "unique-key-merchant-not-found"
 }
 ```
 
@@ -113,7 +114,8 @@ Expected approved response:
   "expirationMonth": 12,
   "expirationYear": 2030,
   "cvv": "123",
-  "customerName": "Test Customer"
+  "customerName": "Test Customer",
+  "idempotencyKey": "unique-key-inactive-merchant"
 }
 ```
 
@@ -128,7 +130,8 @@ Expected approved response:
   "expirationMonth": 12,
   "expirationYear": 2030,
   "cvv": "123",
-  "customerName": "Test Customer"
+  "customerName": "Test Customer",
+  "idempotencyKey": "unique-key-fraud-decline"
 }
 ```
 
@@ -143,7 +146,8 @@ Expected approved response:
   "expirationMonth": 12,
   "expirationYear": 2030,
   "cvv": "123",
-  "customerName": "Test Customer"
+  "customerName": "Test Customer",
+  "idempotencyKey": "unique-key-processor-decline"
 }
 ```
 
