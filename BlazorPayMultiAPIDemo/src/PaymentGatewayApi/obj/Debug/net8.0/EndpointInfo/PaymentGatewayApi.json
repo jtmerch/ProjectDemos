@@ -1,0 +1,224 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PaymentGatewayApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Payments/authorize": {
+      "post": {
+        "tags": [
+          "Payments"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CardPaymentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CardPaymentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CardPaymentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentAuthorizationResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentAuthorizationResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentAuthorizationResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Payments/status/{transactionId}": {
+      "get": {
+        "tags": [
+          "Payments"
+        ],
+        "parameters": [
+          {
+            "name": "transactionId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentStatusResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentStatusResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentStatusResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CardPaymentRequest": {
+        "required": [
+          "cardNumber",
+          "currency",
+          "customerName",
+          "cvv",
+          "merchantId"
+        ],
+        "type": "object",
+        "properties": {
+          "merchantId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "amount": {
+            "maximum": 999999.99,
+            "minimum": 0.01,
+            "type": "number",
+            "format": "double"
+          },
+          "currency": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardNumber": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "expirationMonth": {
+            "maximum": 12,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "expirationYear": {
+            "maximum": 2100,
+            "minimum": 2026,
+            "type": "integer",
+            "format": "int32"
+          },
+          "cvv": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "customerName": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PaymentAuthorizationResponse": {
+        "type": "object",
+        "properties": {
+          "transactionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "approved": {
+            "type": "boolean"
+          },
+          "responseMessage": {
+            "type": "string",
+            "nullable": true
+          },
+          "authCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "fraudScore": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "processorResponseCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchantName": {
+            "type": "string",
+            "nullable": true
+          },
+          "processorName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardNetwork": {
+            "type": "string",
+            "nullable": true
+          },
+          "velocityFlag": {
+            "type": "boolean"
+          },
+          "fraudChecks": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PaymentStatusResponse": {
+        "type": "object",
+        "properties": {
+          "transactionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastUpdatedUtc": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
