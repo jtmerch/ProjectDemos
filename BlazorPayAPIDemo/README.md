@@ -1,6 +1,6 @@
 # PaymentGatewayDemo
 
-This is a .NET demo project that shows a payment gateway-style architecture using ASP.NET Core Web APIs, Blazor Server, async API calls, dependency injection, inheritance, merchant lookup, and xUnit tests.
+A payment gateway-style application built with ASP.NET Core Web APIs and Blazor Server. It handles payment authorization through a multi-service architecture with fraud checking, processor integration, merchant lookup, and idempotency support.
 
 ## Projects
 
@@ -157,21 +157,7 @@ Expected approved response:
 GET https://localhost:7201/api/payments/status/abc123
 ```
 
-## Interview talking points
-
-- The gateway API is the public/front-end API.
-- The Blazor app is only a client and does not call backend services directly.
-- Merchant lookup happens before external calls.
-- Fraud and processor calls run asynchronously with `Task.WhenAll`.
-- Backend APIs use `Task.Delay` only to simulate real external latency.
-- Controllers stay thin; business logic is in services.
-- Dependencies are injected through interfaces.
-- `IHttpClientFactory` is used instead of manually creating `HttpClient`.
-- xUnit tests cover merchant lookup and payment orchestration.
-- This can be secured with HTTPS, JWT bearer auth, OAuth/OIDC, API keys between services, CORS, rate limiting, request validation, and Azure Key Vault for secrets.
-- In-memory merchant storage is used for the demo, but the repository pattern allows replacing it with SQL Server, EF Core, or Dapper.
-
-## OOP/inheritance included
+## Architecture
 
 - `PaymentRequestBase` -> `CardPaymentRequest`
 - `PaymentProcessorBase` -> `SimulatedPaymentProcessor`
