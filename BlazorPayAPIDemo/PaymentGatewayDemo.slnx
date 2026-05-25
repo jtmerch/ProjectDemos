@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="src/FraudApi/FraudApi.csproj" />
-  <Project Path="src/PaymentBlazorClient/PaymentBlazorClient.csproj" />
-  <Project Path="src/PaymentGatewayApi/PaymentGatewayApi.csproj" />
-  <Project Path="src/ProcessorApi/ProcessorApi.csproj" />
-  <Project Path="tests/PaymentGatewayApi.Tests/PaymentGatewayApi.Tests.csproj" />
-</Solution>
