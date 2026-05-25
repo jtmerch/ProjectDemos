@@ -82,8 +82,7 @@
               "RelativeToolTip": "src\\PaymentGatewayApi\\Repositories\\InMemoryMerchantRepository.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T19:30:18.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T19:30:18.912Z"
             },
             {
               "$type": "Document",
@@ -95,8 +94,7 @@
               "RelativeToolTip": "tests\\PaymentGatewayApi.Tests\\PaymentOrchestrationServiceTests.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T18:32:19.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T18:32:19.131Z"
             },
             {
               "$type": "Document",
@@ -108,21 +106,19 @@
               "RelativeToolTip": "tests\\PaymentGatewayApi.Tests\\MerchantServiceTests.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAtwAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T18:31:46.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T18:31:46.886Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PaymentGatewayApi.Tests",
+              "Title": "PaymentGatewayApi.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\tests\\PaymentGatewayApi.Tests\\PaymentGatewayApi.Tests.csproj",
               "RelativeDocumentMoniker": "tests\\PaymentGatewayApi.Tests\\PaymentGatewayApi.Tests.csproj",
               "ToolTip": "C:\\Users\\neuag\\Source\\ProjectDemos\\BlazorPayAPIDemo\\tests\\PaymentGatewayApi.Tests\\PaymentGatewayApi.Tests.csproj",
               "RelativeToolTip": "tests\\PaymentGatewayApi.Tests\\PaymentGatewayApi.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-25T18:30:32.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-25T18:30:32.007Z"
             },
             {
               "$type": "Document",
@@ -171,8 +167,7 @@
               "RelativeToolTip": "src\\PaymentGatewayApi\\Services\\MerchantService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T22:18:23.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T22:18:23.781Z"
             },
             {
               "$type": "Document",
@@ -196,8 +191,7 @@
               "RelativeToolTip": "src\\PaymentGatewayApi\\Controllers\\PaymentsController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T21:54:26.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T21:54:26.699Z"
             }
           ]
         }

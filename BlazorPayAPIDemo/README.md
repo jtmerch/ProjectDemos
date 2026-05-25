@@ -56,9 +56,12 @@ Body:
   "expirationMonth": 12,
   "expirationYear": 2030,
   "cvv": "123",
-  "customerName": "Test Customer"
+  "customerName": "Test Customer",
+  "idempotencyKey": "unique-key-abc123"
 }
 ```
+
+> **idempotencyKey** (optional): A unique string you choose for each payment attempt. If you send the same request twice with the same key (for example, because of a network retry), the gateway returns the original response instead of charging the customer again. The cached result expires after 24 hours.
 
 Expected approved response:
 
@@ -71,9 +74,16 @@ Expected approved response:
   "fraudScore": 15,
   "processorResponseCode": "00",
   "merchantName": "Savannah Urgent Care",
-  "processorName": "SimulatedProcessor"
+  "processorName": "SimulatedProcessor",
+  "cardNetwork": "Visa",
+  "velocityFlag": false,
+  "fraudChecks": ["Amount OK", "Card OK"]
 }
 ```
+
+> **cardNetwork**: The card brand detected from the card number (e.g., Visa, Mastercard).
+> **velocityFlag**: `true` if the fraud check flagged this card for too many recent transactions.
+> **fraudChecks**: A list of fraud check labels that were run and passed.
 
 ## Other sample requests
 
